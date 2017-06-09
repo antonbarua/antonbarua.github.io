@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "bundle":"webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/antonbarua/antonbarua.github.io.git"
@@ -23,6 +25,8 @@
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
     "webpack": "^2.6.1"
   }
 }
